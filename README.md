@@ -26,3 +26,5 @@ ahowell@aahowel3-OptiPlex-7440-AIO:~/leafcutter/leafviz$ ./run_leafviz.R /home/a
 # ASGAL for N039 
 Creating a fasta of only the target chromosome - https://bioboot.github.io/web-2016/class-material/day3-fasta-practice.html 
 The fasta name comes BEFORE the chromosme name argument! Also head the .fai file to see how to call the chromosome names - not necssarily the long thing you see when you grep "^>" 
+
+USED HOMO_SAPIENS from desktop Documents/asgal_test .gtf NOT the long ERCV.III ONE 
