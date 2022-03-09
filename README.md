@@ -28,3 +28,5 @@ Creating a fasta of only the target chromosome - https://bioboot.github.io/web-2
 The fasta name comes BEFORE the chromosme name argument! Also head the .fai file to see how to call the chromosome names - not necssarily the long thing you see when you grep "^>" 
 
 USED HOMO_SAPIENS from desktop Documents/asgal_test .gtf NOT the long ERCV.III ONE 
+
+Might have messed this up by using all the DNA and RNA fastqs combined - from Daniel "The FASTQ files with "_TSRGD_" in their name are RNA and those with "_KHTSC_" are DNA (exome)." but they're going to do a TSC1 and TSC2 panel on N039 anyway so it doesnt matter
