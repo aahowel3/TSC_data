@@ -23,6 +23,9 @@ Rscript /home/ahowell/leafcutter/leafviz/prepare_results.R -m groups_file_nopath
 Final visualization (must be run in leafviz folder) 
 ahowell@aahowel3-OptiPlex-7440-AIO:~/leafcutter/leafviz$ ./run_leafviz.R /home/ahowell/Documents/leafcutter_analysis/with_batches_and_exon/leafviz.RData
 
+# March 2022 data rerun
+Using the library EnsDb.Hsapiens.v75 vs the org.Hs.eg.db for AnnotationDBI does NOT change the output of the ORA, GGEA, SPIA - only cleans up NAs in the DGE list
+
 # ASGAL for N039 
 Creating a fasta of only the target chromosome - https://bioboot.github.io/web-2016/class-material/day3-fasta-practice.html 
 The fasta name comes BEFORE the chromosme name argument! Also head the .fai file to see how to call the chromosome names - not necssarily the long thing you see when you grep "^>" 
