@@ -38,3 +38,8 @@ Might have messed this up by using all the DNA and RNA fastqs combined - from Da
 Family classifications have changed - N007 both parent and child are severe, N036 both children are now severe - details outlined in TSC_DOD_Meeeting_2022_F powerpoint, N029 seems to still have 1 severe child, 1 mild parent, will see if anything changes 
 
 Families N025, N027, N030, N036, N039 needed to be rerun through the alignment pipeline as they were mislabeled in their strandedness - They are all located here /labs/C4RCD/NarayananLAB/SampathRangasamy/TSC_Fibroblast/results/. They will have "KHRRE_RERUN" within their name. (not all have both an SK or PB rerun - just check which ones have rerun)
+
+Primary scripts are:
+TSC_deseq2_analysis_withpreDod - original differential expression - with batch effect control, functional annotation 
+filteringcalls_dbsnp_tester_withsnpeff - functional version on hines
+edgeR_analysis.R - not actually in TSCdata folder - in main Documents folder 
