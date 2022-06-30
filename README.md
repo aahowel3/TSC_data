@@ -33,3 +33,8 @@ The fasta name comes BEFORE the chromosme name argument! Also head the .fai file
 USED HOMO_SAPIENS from desktop Documents/asgal_test .gtf NOT the long ERCV.III ONE 
 
 Might have messed this up by using all the DNA and RNA fastqs combined - from Daniel "The FASTQ files with "_TSRGD_" in their name are RNA and those with "_KHTSC_" are DNA (exome)." but they're going to do a TSC1 and TSC2 panel on N039 anyway so it doesnt matter
+
+# July 2022 data rerun
+Family classifications have changed - N007 both parent and child are severe, N036 both children are now severe - details outlined in TSC_DOD_Meeeting_2022_F powerpoint, N029 seems to still have 1 severe child, 1 mild parent, will see if anything changes 
+
+Families N025, N027, N030, N036, N039 needed to be rerun through the alignment pipeline as they were mislabeled in their strandedness - They are all located here /labs/C4RCD/NarayananLAB/SampathRangasamy/TSC_Fibroblast/results/. They will have "KHRRE_RERUN" within their name. (not all have both an SK or PB rerun - just check which ones have rerun)
