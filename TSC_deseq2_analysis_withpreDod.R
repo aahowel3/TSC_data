@@ -172,8 +172,8 @@ pcaData <- plotPCA(vsd, intgroup = c("family","condition"), returnData = TRUE)
 percentVar <- round(100 * attr(vsd, "percentVar"))
 ggplot(pcaData, aes(x = PC1, y = PC2, color = condition)) +
   geom_point(size =3) +
-  xlab(paste0("PC1: ", "43%", "% variance")) +
-  ylab(paste0("PC2: ", "30%", "% variance")) +
+  xlab(paste0("PC1: ", "53%", "% variance")) +
+  ylab(paste0("PC2: ", "21%", "% variance")) +
   coord_fixed() +
   ggtitle("PCA with VST data") + 
   geom_text_repel(aes(label=names))
