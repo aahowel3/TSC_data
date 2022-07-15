@@ -43,3 +43,8 @@ Primary scripts are:
 TSC_deseq2_analysis_withpreDod - original differential expression - with batch effect control, functional annotation 
 filteringcalls_dbsnp_tester_withsnpeff - functional version on hines
 edgeR_analysis.R - not actually in TSCdata folder - in main Documents folder 
+
+
+Update with Sampath 7/13/21
+-we are including N029 – so 13 families plus N029 – there is a deletion in one copy of the TSC1 gene – from the 5’UTR to exon 21 
+
