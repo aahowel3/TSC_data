@@ -48,3 +48,6 @@ edgeR_analysis.R - not actually in TSCdata folder - in main Documents folder
 Update with Sampath 7/13/21
 -we are including N029 – so 13 families plus N029 – there is a deletion in one copy of the TSC1 gene – from the 5’UTR to exon 21 
 
+Important 
+location of exome snpEFF.vcf list 
+/labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/list_of_snpeffvcs_locs.txt 
