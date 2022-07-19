@@ -51,3 +51,11 @@ Update with Sampath 7/13/21
 Important 
 location of exome snpEFF.vcf list 
 /labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/list_of_snpeffvcs_locs.txt 
+
+
+Remember – there are 3 different datasets that variant calling can be done on – exome, PB rna, and SK rna – I don’t think Daniel reran any of the exome variant calls – because the issue was with the rna strandedness data 
+I recently noticed that the strand configuration for the RNA library prep kit Kapa RNA Hyper with RiboErase "KHRRE'' within KBase was incorrect. This issue would affect RNA quantification since we hardset the strandeness for the quantification tools like Salmon and HTSeq. This would affect 9 subjects (5 families -- N027 and N025 only have one subject so technically 3 families).
+ 
+So you only need to go rooting around in the RERUN folders when you’re getting the htseq files – or if/when you run the rna variants through dbnsfp – 
+Usually the exome vcfs are in a folder labelle “hc” whereaes the rna vcfs are in an “rnaHC” folder 
+
