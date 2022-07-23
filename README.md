@@ -50,10 +50,11 @@ Update with Sampath 7/13/21
 
 # Important 
 location of exome snpEFF.vcf list 
-/labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/list_of_snpeffvcs_locs.txt 
+/labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/list_of_snpeffvcs_locs.txt <br />
 location of script that runs those files through dbnsfp 4.3a 
-/labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/dbnsfp_annotations.sh
+/labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/dbnsfp_annotations.sh<br />
 location of new htseq files that go into the differential expression
+location of script that iterates dbsnfp files through the rscript to calculate their deleterious score 
 
 
 Remember – there are 3 different datasets that variant calling can be done on – exome, PB rna, and SK rna – I don’t think Daniel reran any of the exome variant calls – because the issue was with the rna strandedness data 
