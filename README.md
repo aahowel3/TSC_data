@@ -49,13 +49,16 @@ Update with Sampath 7/13/21
 -we are including N029 – so 13 families plus N029 – there is a deletion in one copy of the TSC1 gene – from the 5’UTR to exon 21 
 
 # Important 
-location of exome snpEFF.vcf list 
+location of exome snpEFF.vcf list <br />
 /labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/list_of_snpeffvcs_locs.txt <br />
-location of script that runs those files through dbnsfp 4.3a 
-/labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/dbnsfp_annotations.sh<br />
-location of new htseq files that go into the differential expression
-location of script that iterates dbsnfp files through the rscript to calculate their deleterious score 
+location of script that runs those files through dbnsfp 4.3a <br />
+/labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/dbnsfp_annotations.sh -> output files end in .dbnsfp4.3a_withnarg.vcf <br />
+location of script that iterates dbsnfp files through the rscript to calculate their deleterious score <br />
+(.dbnsfp4.3a_withnarg.vcf moved to hines) /work/aahowel3/TSC/july_2022/dnsfp_annotations/filteringcalls_dbsnp_tester_withsnpeff.sh <br />
+Command line code is bash filteringcalls_dbsnp_tester_withsnpeff.sh - iterates through filteringcalls_dbsnp_tester_withsnpeff.R 
 
+location of new htseq files that go into the differential expression
+isilon - /home/ahowell/list_of_htseqs.txt
 
 Remember – there are 3 different datasets that variant calling can be done on – exome, PB rna, and SK rna – I don’t think Daniel reran any of the exome variant calls – because the issue was with the rna strandedness data 
 I recently noticed that the strand configuration for the RNA library prep kit Kapa RNA Hyper with RiboErase "KHRRE'' within KBase was incorrect. This issue would affect RNA quantification since we hardset the strandeness for the quantification tools like Salmon and HTSeq. This would affect 9 subjects (5 families -- N027 and N025 only have one subject so technically 3 families).
