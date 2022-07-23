@@ -53,6 +53,7 @@ location of exome snpEFF.vcf list
 /labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/list_of_snpeffvcs_locs.txt 
 location of script that runs those files through dbnsfp 4.3a 
 /labs/C4RCD/NarayananLAB/SampathRangasamy/LNTS_DoD/Analysis/dbnsfp_annotations/dbnsfp_annotations.sh
+location of new htseq files that go into the differential expression
 
 
 Remember – there are 3 different datasets that variant calling can be done on – exome, PB rna, and SK rna – I don’t think Daniel reran any of the exome variant calls – because the issue was with the rna strandedness data 
