@@ -66,3 +66,5 @@ I recently noticed that the strand configuration for the RNA library prep kit Ka
 So you only need to go rooting around in the RERUN folders when you’re getting the htseq files – or if/when you run the rna variants through dbnsfp – 
 Usually the exome vcfs are in a folder labelle “hc” whereaes the rna vcfs are in an “rnaHC” folder 
 
+On hines 
+allele_specific_expression_delvariants.R and allele_specific_expression_delvariants.sh - loop through files in folder /rna_hcs to get genotypes and the allele specific expression of the called variants  
