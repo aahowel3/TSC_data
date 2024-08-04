@@ -1,10 +1,12 @@
-# TSC_data
+# Understanding the gene expression differences between severe and mild forms of Tuberous Sclerosis Complex (TSC) and the role of genetic modifiers to identify novel drug targets 
 
 ### Overview
 
 Tuberous sclerosis complex (TSC) is an autosomal dominant neurogenetic disorder, in which affected individuals are heterozygous for a mutation in either the TSC1 or TSC2 gene, thereby causing constitutive activation of the mTOR signaling pathway. Clinically, TSC patients present with a variety of symptoms including skin lesions, renal angiomyolipomas (AML), seizures, and cognitive delay. However, the severity of symptoms in TSC is variable, although mental retardation and intractable epilepsy are common. Phenotypic variability (PV) in TSC is well recognized, but its molecular basis is not understood. Variability in phenotype can be seen even within a single family (intrafamilial phenotypic variability [IPV]), where all affected individuals have the same TSC gene mutation. IPV clearly indicates that TSC1 or TSC2 mutation alone does not account for the observed phenotype and suggests a potential role for modifying factors. Mechanisms currently proposed for PV in monogenic disorders include modifying effects of unlinked genes (genetic modifiers), epigenetic factors, mosaicism, allelic skewing of gene expression, and environmental or other stochastic factors.  
 
 Previously, we described the first report of comprehensive exome and transcriptome sequencing analysis of four TSC families demonstrating phenotypic variability. Here, we evaluated additional familial TSC cases comprised of severely affected children and mildly affected parents and/or siblings, performing whole exome and RNA sequencing of blood leukocytes. Utilizing all combined familial datasets, we aimed to (1) identify aberrant gene expression, aberrant splicing, and mono-allelic expression in severe vs mildly afflicted patients and (2) identify primary TSC mutations and potential modifying aberrations in the mTOR pathway that may drive disease variability. 
+
+Final presentation slides with figures can be found [here](https://github.com/aahowel3/TSC_data/blob/main/Tgen_heliosscholars_finalpresentation_forgithub.pdf).
 
 # Data Processing 
 `LC_scratch.sh` includes the important regtools junctions extract step which creates a .junc file for each bam and mashes it altogether into test_juncfiles.txt
